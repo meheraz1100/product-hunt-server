@@ -85,7 +85,7 @@ app.get("/products", async (req, res) => {
       $gte: minPrice,
       $lte: maxPrice,
     };
-
+ 
     products = await Products.find(query)
       .skip(page * 10)
       .limit(10);
