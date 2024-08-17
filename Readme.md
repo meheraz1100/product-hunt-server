@@ -1,11 +1,11 @@
-Live Link: [productFinder](https://productfinders.netlify.app)
+Live Link: 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shakurShirajul/product-finder-server.git
+   git clone https://github.com/meheraz1100/product-hunt-server.git
 2. Navigate to the project directory:
    ```bash
-   cd product-finder-server
+   cd product-hunt-server
 3. Install dependencies:
    ```bash
    npm install
