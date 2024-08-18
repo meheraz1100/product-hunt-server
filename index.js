@@ -18,12 +18,12 @@ app.use(cors());
 app.use(cookieParser());
 
 app.get("/", async (req, res) => {
-  res.send("Hello World");
+  res.send("Product hunt server is running....");
 });
 
 // Products Routes
 
-app.get("/products-length", async (req, res) => {
+app.get("/product-length", async (req, res) => {
   const products = await Products.find({});
   res.send(products);
 });
